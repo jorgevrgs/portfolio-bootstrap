@@ -1144,4 +1144,6 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + 2px)}.form-control-color
 .d-print-block{display:block !important}.d-print-grid{display:grid !important}.d-print-table{display:table !important}
 .d-print-table-row{display:table-row !important}.d-print-table-cell{display:table-cell !important}
 .d-print-flex{display:-ms-flexbox !important;display:flex !important}.d-print-inline-flex{display:-ms-inline-flexbox !important;display:inline-flex !important}
-.d-print-none{display:none !important}}.who-am-i{min-height:calc(100vh - 56px)}
+.d-print-none{display:none !important}}.icon{display:block;width:80px;height:80px;background-position:center;background-repeat:no-repeat}
+.icon-framework{background-image:url(../img/IconFramework.svg)}.icon-language{background-image:url(../img/IconLanguage.svg)}
+.icon-skill{background-image:url(../img/IconSkill.svg)}.who-am-i{min-height:calc(100vh - 56px)}
