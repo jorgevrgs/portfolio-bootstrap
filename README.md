@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://jorgevrgs.github.io/portfolio) 🔗
+[Live Demo Link](https://jorgevrgs.github.io/portfolio-bootstrap/) 🔗
 
 ## Getting Started
 
