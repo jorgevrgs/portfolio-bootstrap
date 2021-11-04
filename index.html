@@ -8,21 +8,27 @@
 
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/bootstrap.bundle.min.js"defer></script>
   </head>
   <body>
     <header class="header">
       <nav class="navbar navbar-expand-lg d-flex justify-content-center">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-black" href="#recentWorks">Portolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black" href="#contactMe">Contact</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#recentWorks">Portolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#contactMe">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="main">
@@ -35,20 +41,17 @@
           who-am-i
         "
       >
-        <div class="container text-center">
+        <div class="container text-center z-index-1 position-relative">
           <div class="row">
             <div class="col-8 offset-2">
               <h1>Hey there. I’m Alex.</h1>
               <h2>I’m a software developer</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-                minima laborum consequatur optio commodi ullam ab incidunt fugit
-                asperiores minus sed doloribus inventore quaerat earum fuga
-                explicabo, tenetur maiores dignissimos. Lorem ipsum dolor, sit
-                amet consectetur adipisicing elit. Perspiciatis, repudiandae est
-                delectus explicabo magni beatae, dignissimos deleniti obcaecati
-                quo natus necessitatibus. Aspernatur molestiae, blanditiis odio
-                molestias odit officiis quos fugiat!
+                I can help you build a product , 
+                feature or website Look through some of my work 
+                and experience! If you like what you
+                see and have a project you need coded,
+                don’t hestiate to contact me.
               </p>
               <ul class="list-unstyled d-flex justify-content-center mt-4">
                 <li><i class="fab fa-github fa-md mx-2"></i></li>
@@ -81,7 +84,7 @@
                 />
                 <div class="card-body rounded-top border-top bg-white">
                   <h3 class="card-title text-center mb-4">
-                    Multi-Post Stories Gain+Glory
+                    Multi-Post Stories <br> Gain+Glory
                   </h3>
                   <div class="card-text mb-4">
                     <ul
@@ -119,7 +122,7 @@
                 />
                 <div class="card-body rounded-top border-top bg-white">
                   <h3 class="card-title text-center mb-4">
-                    Multi-Post Stories Gain+Glory
+                    Multi-Post Stories <br> Gain+Glory
                   </h3>
                   <div class="card-text mb-4">
                     <ul
@@ -157,7 +160,7 @@
                 />
                 <div class="card-body rounded-top border-top bg-white">
                   <h3 class="card-title text-center mb-4">
-                    Multi-Post Stories Gain+Glory
+                    Multi-Post Stories <br> Gain+Glory
                   </h3>
                   <div class="card-text mb-4">
                     <ul
@@ -195,7 +198,7 @@
                 />
                 <div class="card-body rounded-top border-top bg-white">
                   <h3 class="card-title text-center mb-4">
-                    Multi-Post Stories Gain+Glory
+                    Multi-Post Stories <br> Gain+Glory
                   </h3>
                   <div class="card-text mb-4">
                     <ul
@@ -233,7 +236,7 @@
                 />
                 <div class="card-body rounded-top border-top bg-white">
                   <h3 class="card-title text-center mb-4">
-                    Multi-Post Stories Gain+Glory
+                    Multi-Post Stories <br> Gain+Glory
                   </h3>
                   <div class="card-text mb-4">
                     <ul
@@ -271,7 +274,7 @@
                 />
                 <div class="card-body rounded-top border-top bg-white">
                   <h3 class="card-title text-center mb-4">
-                    Multi-Post Stories Gain+Glory
+                    Multi-Post Stories <br> Gain+Glory
                   </h3>
                   <div class="card-text mb-4">
                     <ul
@@ -303,9 +306,9 @@
           </div>
         </div>
       </section>
-      <section id="about" class="vh-100 mt-5">
+      <section id="about" class="mt-5">
         <div class="row">
-          <div class="col-8 offset-2 d-flex flex-column align-items-center">
+          <div class="col-10 offset-1 d-flex flex-column align-items-center">
             <h2 class="mt-5 mb-5">About me</h2>
             <p class="text-center">
               I can help you build a product , feature or website Look through
@@ -424,7 +427,7 @@
                             rounded
                           "
                         >
-                          Javascript
+                          Bootstrap
                         </li>
                         <li
                           class="
@@ -437,7 +440,7 @@
                             rounded
                           "
                         >
-                          Ruby
+                          Ruby on rails
                         </li>
                         <li
                           class="
@@ -450,7 +453,7 @@
                             rounded
                           "
                         >
-                          HTML
+                          RSpec
                         </li>
                         <li
                           class="
@@ -463,7 +466,20 @@
                             rounded
                           "
                         >
-                          CSS
+                          Capybara
+                        </li>
+                        <li
+                          class="
+                            badge
+                            bg-white
+                            text-primary
+                            px-4
+                            py-3
+                            mb-3
+                            rounded
+                          "
+                        >
+                          Selenium
                         </li>
                       </ul>
                     </div>
@@ -501,7 +517,7 @@
                             rounded
                           "
                         >
-                          Javascript
+                          Codekit
                         </li>
                         <li
                           class="
@@ -514,7 +530,7 @@
                             rounded
                           "
                         >
-                          Ruby
+                          Github
                         </li>
                         <li
                           class="
@@ -527,7 +543,7 @@
                             rounded
                           "
                         >
-                          HTML
+                          Codepen
                         </li>
                         <li
                           class="
@@ -540,7 +556,7 @@
                             rounded
                           "
                         >
-                          CSS
+                          Terminal
                         </li>
                       </ul>
                     </div>
