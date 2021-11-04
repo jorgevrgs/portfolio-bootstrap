@@ -4,12 +4,14 @@
 
 > The portfolio is a project built with development best practices such as HTML semantic tags, CSS prefixes, Linters, and more.
 
-![screenshot](./assets/images/app_screenshot.png)
+![screenshot](./assets/img/app_screenshot.png)
 
 ## Built With
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Bootstrap](https://getbootstrap.com/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [SASS](https://sass-lang.com/)
 - [Gulp](https://gulpjs.com/)
 - [Stylelint](https://stylelint.io/)
 - [Webhint](https://webhint.io/docs/user-guide/)
@@ -88,9 +90,9 @@ GitHub Pages:
 
 👤 **Jorge Vargas**
 
-- GitHub: [@username](https://github.com/username)
-- Twitter: [@username1](https://twitter.com/username1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/username)
+- GitHub: [@username](https://github.com/jorgevrgs)
+- Twitter: [@username1](https://twitter.com/jorgevrgs1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/jevargaslarrota)
 
 👤 **Luis Abarca**
 

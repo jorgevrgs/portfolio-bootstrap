@@ -12,10 +12,19 @@
     "test": "npm run lint:css && npm run lint:html && echo '\u001b[32m' && echo '✅ All test approved!' && echo '\u001b[0m'"
   },
   "keywords": [],
-  "author": "",
+  "authors": [
+    {
+      "name": "Jorge Vargas"
+    },
+    {
+      "name": "Luis Abarca"
+    },
+    {
+      "name": "Ayebazibwe Ishmael"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "bootstrap": "^5.1.3"
   },
   "devDependencies": {
